@@ -134,9 +134,9 @@ bool MapDrawer::ParseViewerParamFile(cv::FileStorage &fSettings)
 
 void MapDrawer::DrawMapPoints()
 {
-    Map* pActiveMap = mpAtlas->GetCurrentMap();
-    if(!pActiveMap)
-        return;
+//    Map* pActiveMap = mpAtlas->GetCurrentMap();
+//    if(!pActiveMap)
+//        return;
 
 //    const vector<MapPoint*> &vpMPs = pActiveMap->GetAllMapPoints();
 //    const vector<MapPoint*> &vpRefMPs = pActiveMap->GetReferenceMapPoints();
